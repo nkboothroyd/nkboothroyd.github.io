@@ -6,6 +6,9 @@ import { defineConfig } from 'vite'
 // https://vite.dev/config/
 export default defineConfig({
     base: '/nkboothroyd.github.io/',
+    build: {
+        assetsDir: '',
+    },
     plugins: [
         React(),
         Babel({ presets: [reactCompilerPreset()] }),
