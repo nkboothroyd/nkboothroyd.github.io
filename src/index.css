@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import 'tailwindcss';
+
+/* Mount element styling */
+#root {
+    isolation: isolate;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    background: #fef7e2;
+}
+
+@theme {
+    --font-display: 'Raleway', sans-serif;
+    --font-sans: 'Montserrat', sans-serif;
+}
+
+@layer components {
+    h2 {
+        font-size: var(--text-3xl);
+        font-weight: var(--font-weight-semibold);
+        color: var(--color-gray-950);
+        font-family: var(--font-display);
+    }
+    @media (min-width: 768px) {
+        h2 {
+            font-size: var(--text-4xl);
+        }
+    }
+
+    h3 {
+        font-size: var(--text-2xl);
+    }
+
+    @media (min-width: 768px) {
+        h3 {
+            font-size: var(--text-3xl);
+        }
+    }
+
+    h4 {
+        font-size: var(--text-2xl);
+    }
+
+    .row-palegreen {
+        clip-path: polygon(0 0, 100% 4%, 100% 96%, 0 100%);
+        -webkit-clip-path: polygon(0 0, 100% 4%, 100% 96%, 0 100%);
+        padding: 65px 30px;
+        background: #f6f5e1;
+    }
+}
