@@ -29,7 +29,7 @@ export default function TechUsed({ techs, ...props }: TechUsedProps) {
     return (
         <div
             id="technology-used"
-            className="flex flex-col items-center mt-4"
+            className="flex flex-col items-center mt-8"
             {...props}
         >
             <h4 className="font-semibold">Technology Used:</h4>

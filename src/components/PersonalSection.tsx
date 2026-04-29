@@ -24,7 +24,7 @@ export default function PersonalSection({ ...props }: ComponentPropsWithoutRef<'
                             It's a lot more fun to work on than another to-do app. Still heavily WIP, but the repository is free and public to poke around in.
                         </p>
                     </div>
-                    <img src="./phone-view-web-game.gif" className="h-100" />
+                    <img src="./phone-view-web-game.gif" className="h-100" alt="A screenshot of the web game showing the forest biome in the day phase." />
                 </div>
 
                 <TechUsed techs={['react', 'typescript', 'vite']} />
