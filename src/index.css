@@ -40,7 +40,14 @@
     }
 
     h4 {
-        font-size: var(--text-2xl);
+        font-size: var(--text-lg);
+        font-style: italic;
+    }
+
+    @media (min-width: 768px) {
+        h4 {
+            font-size: var(--text-2xl);
+        }
     }
 
     .row-palegreen {

@@ -28,7 +28,7 @@ export default function ProfessionalSection({ ...props }: ComponentPropsWithoutR
                 <p>As a Digital Content Developer, I focused mainly on providing custom marketing assets to clients. I specialized in email creation, developing responsive, Outlook-friendly implementations of emails and complex email signatures from design files. One of the highest impact projects I worked on was an email template that made heavy use of Liquid Logic to track the passage of loan milestone dates, allowing the email to be re-used as a "Status Update" style of email. I also got the opportunity to participate in solutions engineering for a customer by creating a Vue SPA that filled in some product gaps in our existing platform.</p>
                 <TechUsed techs={['vue', 'php', 'typescript', 'vite', 'figma']} />
             </article>
-            <article id="freelance" className="md:px-8">
+            <article id="freelance" className="mt-8 md:px-8">
                 <h3>Freelance Wordpress Developer</h3>
                 <p>Prior to 2020, I was a freelancer that worked on custom WordPress themes for small businesses and artisans like jewelry crafters and theater directors. I used a toolchain called Sage that was built on top an early version of Laravel Blade.</p>
                 <TechUsed techs={['php', 'javascript', 'wordpress']} />
