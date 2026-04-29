@@ -8,7 +8,7 @@ export default function ProfessionalSection({ ...props }: ComponentPropsWithoutR
             className="py-16.25 px-7.5"
             {...props}
         >
-            <h2 className="text-right">Professional Experience</h2>
+            <h2 className="text-center md:text-right">Professional Experience</h2>
             <article id="total-expert" className="md:px-8">
                 <h3>Total Expert</h3>
                 <h4 className="mt-2">Software Engineer</h4>

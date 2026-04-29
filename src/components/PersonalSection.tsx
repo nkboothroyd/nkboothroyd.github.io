@@ -11,7 +11,7 @@ export default function PersonalSection({ ...props }: ComponentPropsWithoutRef<'
             <h2>Personal Projects</h2>
             <article id="wyrdwood-game" className="md:px-8">
                 <h3>Wyrdwood</h3>
-                <div className="flex justify-between">
+                <div className="flex max-md:flex-col justify-between">
                     <div className="flex flex-col">
                         <a href="https://github.com/nkboothroyd/wyrdwood-game" className="text-[#728E76] underline font-semibold hover:text-[#728E76]/75 active:text-[#728E76]/75" target="_blank">Repository</a>
                         <p className="py-2">
